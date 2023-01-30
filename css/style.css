@@ -69,14 +69,16 @@ body {
     color: #404BBF;
 }
 
-.adress {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+.site-address .link {
     color: #434455;
 }
+
+.site-address .link:hover,
+.site-address .link:focus {
+    color: #404BBF;
+}
+
+
 
 /* Main */
 
@@ -106,6 +108,13 @@ body {
     color: #FFFFFF;
     background: #4D5AE5;
 }
+
+.btn :hover,
+.btn :focus {
+    color: #404BBF;
+
+}
+
 
 /* Section 2 */
 .features {
