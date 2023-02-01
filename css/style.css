@@ -1,190 +1,227 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 
-    background-color: #E5E5E5;
+  background-color: #ffffff;
 
-    color: #434455;
+  color: #434455;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .section-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Top line */
-.top-line {
-    background: #FFFFFF
+.header {
+  background: #ffffff;
 }
 
 .logo {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
 }
 
 .code {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .site-nav .link {
-    color: #2E2F42;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
 
 .site-address .link {
-    color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
 }
 
 .site-address .link:hover,
 .site-address .link:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
-
-
 
 /* Main */
 
 /* Section 1 */
 .hero {
-    background: #2E2F42;
+  background: #2e2f42;
 }
 
 .hero-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .btn {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-color: #4d5ae5;
+  border-radius: 4px;
 }
 
-.btn .link:hover,
-.btn .link:focus {
-    color: #FFFFFF;
-    background: #404BBF;
+.btn link :hover {
+  color: #404bbf;
 }
+
 .filter-btn {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #4D5AE5;
-    background: #F4F4FD
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border-color: #f4f4fd;
+  border-radius: 4px;
+}
+.filter-btn link:hover 
+.filter-btn link:focus {
+  color: #404bbf;
 }
 
-
+.filter-btn-active {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #404bbf;
+  border-color: #f4f4fd;
+  border-radius: 4px;
+}
 /* Section 2 */
 .features {
-    background: #FFFFFF
+  background: #ffffff;
 }
 
 .features .title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.filters {
+  background: #ffffff;
 }
 
 /* Section 3 */
 .works-section {
-    background: #FFFFFF
+  background: #ffffff;
 }
 
 /* Section 4 */
-.team-section {
-    background: #F4F4FD;
+.card {
+  background: #ffffff;
 }
-
+.team-section {
+  background: #f4f4fd;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
 /* Footer */
 
 .footer {
-    background: #2E2F42;
+  background: #2e2f42;
 }
 
 .logo {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
 }
 
 .footer-code {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .comment {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #E7E9FC;
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
