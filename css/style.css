@@ -1,42 +1,40 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 
-  background-color: #ffffff;
+  background-color: white;
 
   color: #434455;
+  
 }
 
 .list {
   list-style: none;
-}
+  }
 
 .section-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
 .text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #434455;
 }
 
 /* Top line */
 .header {
-  background: #ffffff;
 }
 
 .logo {
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -49,7 +47,6 @@ body {
 }
 
 .code {
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
@@ -61,7 +58,6 @@ body {
 }
 
 .site-nav .link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -76,7 +72,6 @@ body {
 }
 
 .site-address .link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -98,7 +93,6 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -106,48 +100,60 @@ body {
   color: #ffffff;
 }
 
-.btn {
-  font-style: normal;
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   display: flex;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
-  border-color: #4d5ae5;
-  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+  border-color:#4D5AE5;
 }
 
-.btn link :hover {
+.button:hover,
+.button:focus{
+  background-color: #ffffff;
   color: #404bbf;
+  border-color: #ffffff;
 }
 
+/* Portfolio-seсtion */
 .filter-btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  cursor: pointer;
   color: #4d5ae5;
   background: #f4f4fd;
   border-color: #f4f4fd;
   border-radius: 4px;
-}
-.filter-btn link:hover 
-.filter-btn link:focus {
-  color: #404bbf;
+  }
+
+.filter-btn:hover, 
+.filter-btn:focus {
+  color: #f4f4fd;
+  background: #404bbf;
 }
 
 .filter-btn-active {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
   color: #ffffff;
   background: #404bbf;
   border-color: #f4f4fd;
   border-radius: 4px;
 }
+.filter-btn-active:hover,
+.filter-btn-active:focus{
+  color:#404bbf;
+  background-color: #f4f4fd;
+}
+
+
 /* Section 2 */
 .features {
   background: #ffffff;
@@ -159,10 +165,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #2e2f42;
-}
-.portfolio-setion {
-  background: #ffffff;
 }
 
 /* Section 3 */
