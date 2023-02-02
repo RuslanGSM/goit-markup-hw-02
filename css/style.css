@@ -1,10 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
+  --primary-background-color: white;
+  --secondary-background-color:#2e2f42;
+  --trd-background-color: #f4f4fd;
+  --title-color: #2e2f42; 
+  --text-color: #434455;
+  --primary-btn-color: #4D5AE5;
 
-  background-color: white;
-
-  color: #434455;
-  
 }
 
 .list {
@@ -14,20 +16,20 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 2.0;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #434455;
+  color: var(--title-color);
 }
 
 /* Top line */
@@ -37,33 +39,33 @@ body {
 .logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 3;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: var(--primary-btn-color);
 }
 
 .code {
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 3;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .site-nav .link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .site-nav .link:hover,
@@ -73,11 +75,11 @@ body {
 
 .site-address .link {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 3;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .site-address .link:hover,
@@ -89,45 +91,45 @@ body {
 
 /* Section 1 */
 .hero {
-  background: #2e2f42;
+  background: var(--secondary-background-color);
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 3;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 .button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #FFFFFF;
-  background-color: #4D5AE5;
-  border-color:#4D5AE5;
+  color: var(--primary-background-color);
+  background-color: var(--primary-btn-color);
+  border-color:var(--primary-btn-color);
 }
 
 .button:hover,
 .button:focus{
-  background-color: #ffffff;
+  background-color: var(--primary-background-color);
   color: #404bbf;
-  border-color: #ffffff;
+  border-color: var(--primary-background-color);
 }
 
 /* Portfolio-seсtion */
 .filter-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   cursor: pointer;
-  color: #4d5ae5;
-  background: #f4f4fd;
-  border-color: #f4f4fd;
+  color: var(--primary-btn-color);
+  background: var(--primary-background-color);
+  border-color: var(--primary-background-color);
   border-radius: 4px;
   }
 
@@ -140,11 +142,11 @@ body {
 .filter-btn-active {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 2;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--primary-background-color);
   background: #404bbf;
-  border-color: #f4f4fd;
+  border-color: var(--primary-background-color);
   border-radius: 4px;
 }
 .filter-btn-active:hover,
@@ -152,80 +154,84 @@ body {
   color:#404bbf;
   background-color: #f4f4fd;
 }
+.decoration{
+text-decoration: none;
+}
+
 
 
 /* Section 2 */
 .features {
-  background: #ffffff;
+  background: var(--primary-background-color);
 }
 
 .features .title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 /* Section 3 */
 .works-section {
-  background: #ffffff;
+  background: var(--primary-background-color);
 }
 
 /* Section 4 */
 .card {
-  background: #ffffff;
+  background: var(--primary-background-color);
 }
 .team-section {
-  background: #f4f4fd;
+  background: var(--trd-background-color);
 }
 .title {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 /* Footer */
 
 .footer {
-  background: #2e2f42;
+  background: var(--secondary-background-color);
 }
 
 .logo {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: var(--primary-btn-color);
 }
 
 .footer-code {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 3;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color:var(--trd-background-color);
 }
 
 .comment {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
