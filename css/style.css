@@ -165,8 +165,8 @@ body {
 .filter-btn-active:hover,
 .filter-btn-active:focus {
   color: var(--tap-link-color);
-  background-color: #f4f4fd;
-  border-color: var(--tap-link-color);
+  background-color: var(--trd-background-color);
+  border-color: var(--trd-background-color);
 }
 .decoration {
   text-decoration: none;
