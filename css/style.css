@@ -1,10 +1,11 @@
-:root{
+:root {
   --primary-background-color: white;
-  --secondary-background-color:#2e2f42;
+  --secondary-background-color: #2e2f42;
   --trd-background-color: #f4f4fd;
-  --title-color: #2e2f42; 
+  --title-color: #2e2f42;
   --text-color: #434455;
-  --primary-btn-color: #4D5AE5;
+  --primary-btn-color: #4d5ae5;
+  --tap-link-color: #404bbf;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 
 .list {
   list-style: none;
-  }
+}
 
 .section-title {
   font-weight: 700;
@@ -72,7 +73,12 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #404bbf;
+  color: var(--tap-link-color);
+}
+
+.site-nav :active {
+  color: var(--tap-link-color);
+  text-decoration: underline;
 }
 
 .site-address .link {
@@ -86,7 +92,11 @@ body {
 
 .site-address .link:hover,
 .site-address .link:focus {
-  color: #404bbf;
+  color: var(--tap-link-color);
+}
+
+.site-address :active {
+  color: var(--tap-link-color);
 }
 
 /* Main */
@@ -113,13 +123,13 @@ body {
   cursor: pointer;
   color: var(--primary-background-color);
   background-color: var(--primary-btn-color);
-  border-color:var(--primary-btn-color);
+  border-color: var(--primary-btn-color);
 }
 
 .button:hover,
-.button:focus{
-  background-color: var(--primary-background-color);
-  color: #404bbf;
+.button:focus {
+  background-color: var(--tap-link-color);
+  color: var(--primary-background-color);
   border-color: var(--primary-background-color);
 }
 
@@ -133,12 +143,13 @@ body {
   background: var(--primary-background-color);
   border-color: var(--primary-background-color);
   border-radius: 4px;
-  }
+}
 
-.filter-btn:hover, 
+.filter-btn:hover,
 .filter-btn:focus {
-  color: #f4f4fd;
-  background: #404bbf;
+  color: var(--trd-background-color);
+  background: var(--tap-link-color);
+  border-color: var(--tap-link-color);
 }
 
 .filter-btn-active {
@@ -147,20 +158,19 @@ body {
   line-height: 1.1;
   cursor: pointer;
   color: var(--primary-background-color);
-  background: #404bbf;
+  background: var(--tap-link-color);
   border-color: var(--primary-background-color);
   border-radius: 4px;
 }
 .filter-btn-active:hover,
-.filter-btn-active:focus{
-  color:#404bbf;
+.filter-btn-active:focus {
+  color: var(--tap-link-color);
   background-color: #f4f4fd;
+  border-color: var(--tap-link-color);
 }
-.decoration{
-text-decoration: none;
+.decoration {
+  text-decoration: none;
 }
-
-
 
 /* Section 2 */
 .features {
@@ -226,7 +236,7 @@ text-decoration: none;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--trd-background-color);
+  color: var(--trd-background-color);
 }
 
 .comment {
