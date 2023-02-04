@@ -80,6 +80,9 @@ body {
   color: var(--tap-link-color);
   text-decoration: underline;
 }
+.site-nav .link.current {
+  color: var(--primary-btn-color);
+}
 
 .site-address .link {
   font-weight: 400;
@@ -130,7 +133,7 @@ body {
 .button:focus {
   background-color: var(--tap-link-color);
   color: var(--primary-background-color);
-  border-color: var(--primary-background-color);
+  border-color: var(--tap-link-color);
 }
 
 /* Portfolio-seсtion */
@@ -170,7 +173,6 @@ body {
 }
 .decoration {
   text-decoration: none;
-  
 }
 
 /* Section 2 */
